@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ThemeActivity" mce_bogus="1">
+    <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity" mce_bogus="1">
+    <item name="android:activityOpenEnterAnimation">@anim/zoomin</item>
+    <item name="android:activityOpenExitAnimation">@anim/zoomout</item>
+
+    <item name="android:activityCloseEnterAnimation">@anim/backenter</item>
+    <item name="android:activityCloseExitAnimation">@anim/backexit</item>
+
+    </style>
+
+</resources>
